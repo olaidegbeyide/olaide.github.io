@@ -8,10 +8,9 @@
     <link rel="stylesheet" href="../../assets/css/custom-css/footer.css">
     <link rel="stylesheet" href="../../assets/css/custom-css/header.css">
     <link rel="stylesheet" href="../../assets/css/custom-css/main.css">
-    <link rel="stylesheet" href="../../assets/css/custom-css/bmi-calculator.css">
-    <script src="https://kit.fontawesome.com/a3a7fd7e68.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../../assets/css/custom-css/about-page.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
-    <title>Gym | Fitness</title>
+    <title>Gym | About us</title>
 </head>
 
 <body>
@@ -26,8 +25,8 @@
                  <span class="navbar-toggler-icon"></span>
               </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item px-3 active">
+                    <ul class="navbar-nav ml-auto font-weight-bold">
+                        <li class="nav-item px-3">
                             <a class="nav-link" href="#">home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item px-3">
@@ -47,7 +46,7 @@
                         <li class="nav-item px-3">
                             <a class="nav-link" href="#">our team</a>
                         </li>
-                        <li class="nav-item px-3">
+                        <li class="nav-item px-3 active">
                             <a class="nav-link" href="#">about us</a>
                         </li>
                         <li class="nav-item px-3">
@@ -59,211 +58,216 @@
         </div>
     </header>
 
-    <!-- Page header -->
-  <section class="page-section ">
-    <div class="container-fluid big-banner img" style="height: 550px;">
-      <!-- <div class="container"> -->
-      <div class="overlay"></div>
-      <div class="row flex banner align-content-center">
-        <div class="col ml-6">
-          <h1 class="bmi-head col-lg-7  col-md-12" style="color:#FF4301;">BMI <span class="text-white">CALCULATOR</span>
-          </h1>
-          <p class="ml-6 col-lg-5 col-md-8 bmi-desc text-white">Use this
-            calculator to check your body mass index
-            (BMI) and find out if you're a healthy weight.</p>
-        </div>
-      </div>
-    </div>
-    <!-- </div> -->
-  </section>
 
-  <!-- Calculator section  -->
-  
-  <section class="page-section" style="background: rgba(13, 13, 13, 0.96);">
-    <div class="container pt-4 pb-4 mx-auto">
-      <div class="row justify-content-between">
-        <div class="calculate col-lg-6 col-md-12 col-sm-12 mx-aut">
-          <h3 class="text-white">Calculate your <span style="color:#FF4301;"> BMI</span></h3>
-          <p class="text-white">You can use your BMI result as a starting point for further discussion with a GP about
-            your weight and general health. <br />
-            Keep up the good work! For tips on maintaining a healthy weight, check out the food and diet and fitness
-            sections.</p>
-          <form class="d-flex flex-column" action="">
-            <div class="form-row">
-              <div class=" form-group col-lg-6 col-md-12">
-                <input type="text" class="form-control bmi-input" placeholder="Height/cm">
-              </div>
-              <div class="form-group col-lg-6 col-md-12">
-                <input type="text" class="form-control bmi-input" placeholder="Weight/kg">
-              </div>
-            </div>
-            <div class="form-row">
-              <div class="form-group col-lg-6 col-md-6">
-                <input type="text" class="form-control bmi-input" placeholder="age">
-              </div>
-              <div class="form-group col-lg-6  col-md-6">
-                <select id="inputState" class="form-control bmi-input">
-                  <option selected>size</option>
-                  <option>...</option>
-                </select>
-              </div>
-            </div>
+    <section class="main-bg">
+        <div class="main-wrapper">
+            <h1 class="text-uppercase lead-text text-white">We're built for you</h1>
+            <h2 class="text-uppercase sub-text">About <br> us</h2>
+        </div>   
+    </section>
+
+    <section class="history">
+        <div class="history-wrapper">
+            <h2 class="text-uppercase lead-text text-white">built on solid ground</h2>
+            <h3 class="text-uppercase sub-text">our history</h3>
+
+            <p class="lead-paragraph">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et eu tincidunt amet pellentesque. Quam a sollicitudin sit nulla in faucibus. Et consectetur maecenas pharetra, diam habitasse elit mauris auctor. Libero sit rhoncus, at metus dignissim mollis. Purus vulputate a, pulvinar tortor eu pellentesque. Id suscipit neque, viverra sit condimentum ut.
+                Ipsum donec posuere mauris sed massa nisl. Nulla ac ipsum netus quis 
+                <br>
+                <br>
+                volutpat. Ipsum, massa malesuada viverra aliquam phasellus adipiscing. Quisque et aliquam diam, pretium. Amet phasellus quam laoreet neque velit convallis aliquam ornare. Massa nulla accumsan cursus volutpat eget pellentesque vitae etiam lorem. Pellentesque risus nulla morbi lacinia. A fusce sem eu neque arcu vel. Malesuada amet faucibus est, pulvinar lobortis morbi ullamcorper. Non tellus.
+            </p>
+
+            <span class="d-flex justify-content-end text-uppercase">Read more</span>
+        </div>
+    </section>
+
+    <section class="services">
+        <div class="services-wrapper text-center">
+            <h2 class="text-uppercase lead-text">
+                you inspire us
+            </h2>
+            <h3 class="sub-text text-uppercase text-white">
+                so we push you beyond limits
+            </h3>
+
             <div class="row">
-              <div class="form-group col-lg-12 col-md-12">
-                <select id="inputState" class="form-control bmi-input">
-                  <option selected>Select an active factor</option>
-                  <option>...</option>
-                </select>
-              </div>
-              <div class="form-group d-flex flex-row justify-content-end col calculate-btn">
-                <button class="btn " style="background-color: #FF4301; color: #ffffff;">CALCULATE</button>
-              </div>
+                <div class="col-md-3 service">
+                    <div class="service-bg text-center">
+                        <img src="assets/img/Threadmill 1.svg" alt="service-image" class="service-img">
+                    </div>
+                    <p class="text-capitalize service-text text-white">
+                        modern equipment
+                    </p>
+                </div>
+                <div class="col-md-3 service">
+                    <div class="service-bg text-center">
+                        <img src="assets/img/milk 1.svg" alt="service-image" class="service-img">
+                    </div>
+                    <p class="text-capitalize service-text text-white text-center">
+                       healthy nutrition  <br>
+                       plan
+                    </p>
+                </div>
+                <div class="col-md-3 service">
+                    <div class="service-bg text-center">
+                        <img src="assets/img/gym 1.svg" alt="service-image" class="service-img">
+                    </div>
+                    <p class="text-capitalize service-text text-white text-center">
+                        professional training <br> plan
+                    </p>
+                </div>
+                <div class="col-md-3 service">
+                    <div class="service-bg text-center">
+                        <img src="assets/img/heart 1.svg" alt="service-image" class="service-img">
+                    </div>
+                    <p class="text-capitalize service-text text-white text-center">
+                        healthy lifestyle <br> plan
+                    </p>
+                </div>
             </div>
-          </form>
         </div>
-        <div class="col-lg-5 col-md-12 col-sm-12 mx-auo">
-          <h3 class="text-white text-center mb-3">BMI Chart</h3>
-          <table class="table " rules='all'>
-            <thead style="font-weight: bolder;">
-              <tr style="background-color: #FF4301;">
-                <th style="font-weight: bold !important;" scope="col">BMI</th>
-                <th style="font-weight: bold !important;" scope="col">Weight Status</th>
-              </tr>
-            </thead>
-            <tbody class="table-body">
-              <tr style="background-color: #0D0D0D;">
-                <td>Below 18.5</td>
-                <td>Underweight</td>
-              </tr>
-              <tr style="background-color: #4A3F35;">
-                <td>18.5 - 24.9</td>
-                <td> Healthy </td>
-              </tr>
-              <tr style="background-color: #0D0D0D;">
-                <td>25.0 -29.9</td>
-                <td>Overweight</td>
-              </tr>
-              <tr style="background-color: #4A3F35;">
-                <td>30.0 and above</td>
-                <td>Obese</td>
-              </tr>
-            </tbody>
-          </table>
+    </section>
+
+    <section class="mission">
+        <div class="mission-wrapper">
+            <h2 class="text-uppercase lead-text text-white">we set target and hit hard</h2>
+            <h3 class="text-uppercase sub-text">our mission</h3>
+
+            <p class="lead-paragraph">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et eu tincidunt amet pellentesque. Quam a sollicitudin sit nulla in faucibus. Et consectetur maecenas pharetra, diam habitasse elit mauris auctor. Libero sit rhoncus, at metus dignissim mollis. Purus vulputate a, pulvinar tortor eu pellentesque. Id suscipit neque, viverra sit condimentum ut.
+                Ipsum donec posuere mauris sed massa nisl. Nulla ac ipsum netus quis 
+                <br>
+                <br>
+                volutpat. Ipsum, massa malesuada viverra aliquam phasellus adipiscing. Quisque et aliquam diam, pretium. Amet phasellus quam laoreet neque velit convallis aliquam ornare. Massa nulla accumsan cursus volutpat eget pellentesque vitae etiam lorem. Pellentesque risus nulla morbi lacinia. A fusce sem eu neque arcu vel. Malesuada amet faucibus est, pulvinar lobortis morbi ullamcorper. Non tellus.
+            </p>
+
+            <span class="d-flex justify-content-end text-uppercase">Read more</span>
         </div>
-      </div>
-    </div>
-  </section>
+    </section>
+   
+    <section class="featured-sessions">
+        
+            <h2 class="text-uppercase lead-text text-center">featured sessions</h2>
 
-  <!-- essay -->
+            <div class="row mx-auto img-grid">
+                <div class="col-md-6 featured-img ">
+                    <img src="assets/img/Rectangle 22.svg" alt="featured-image" class="img-fluid ">
+                </div>
+                <div class="col-md-3 featured-img">
+                    <img src="assets/img/Rectangle 30.svg" alt="featured-image" class="img-fluid "> 
 
-  <section class="page-section" style="background-color: black;">
-    <div class="container-fluid ">
-      <div class="col-11 mx-auto">
-        <div class="col pt-5 pb-5 " style="color: #FF4301;">
-          <h3>Understanding your BMI result</h3>
-        </div>
-        <div class="col pb-5">
-          <h2 style="color: #ffffff;">Underweight</h2>
-          <p style="color: lightgrey; " class="bmi-text">Underweight Being underweight could be a sign you're not eating enough or you may be ill. If you're underweight, a GP can help. Weighing too little can contribute to a weakened immune system, fragile bones and feeling tired.
-          <p style="color: lightgrey; " class="bmi-text">You can check if you're underweight by using our BMI healthy weight calculator, which shows your body mass index (BMI).</p> 
-          <p style="color: lightgrey; " class="bmi-text"> If your BMI is below 18.5, this suggests that your weight may be too low.</p>
-          <p style="color: lightgrey; " class="bmi-text"> If you're underweight, or you're concerned that someone you know is, tell a GP or practice nurse.
-            They can give you help and advice.</p>
-          <a class="d-flex justify-content-end bmi-link" style="color:#F57D20;" href="#">Read more +</a>
+                </div>
+                <div class="col-md-3 featured-img">
+                    <img src="assets/img/Rectangle 31.svg" alt="featured-image" class="img-fluid ">
+                </div>
+            
+                <div class="col-md-3 featured-img">
+                    <img src="assets/img/Rectangle 32.svg" alt="featured-image" class="img-fluid ">
 
-        </div>
-        <div class="col pb-5">
-          <h2 style="color: #ffffff;">Healthy Weight</h2>
-            <p style="color: lightgrey; " class="bmi-text">Underweight Being underweight could be a sign you're not eating enough or you may be ill. If you're underweight, a GP can help. Weighing too little can contribute to a weakened immune system, fragile bones and feeling tired.
-            <p style="color: lightgrey; " class="bmi-text">You can check if you're underweight by using our BMI healthy weight calculator, which shows your body mass index (BMI).</p> 
-            <p style="color: lightgrey; " class="bmi-text"> If your BMI is below 18.5, this suggests that your weight may be too low.</p>
-            <p style="color: lightgrey; " class="bmi-text"> If you're underweight, or you're concerned that someone you know is, tell a GP or practice nurse.
-            They can give you help and advice.</p>
-            <a class="d-flex justify-content-end bmi-link" style="color:#F57D20;" href="#">Read more +</a>
-        </div>
-        <div class="col pb-5">
-          <h2 style="color: #ffffff;">Overweight</h2>
-            <p style="color: lightgrey; " class="bmi-text">Underweight Being underweight could be a sign you're not eating enough or you may be ill. If you're underweight, a GP can help. Weighing too little can contribute to a weakened immune system, fragile bones and feeling tired.
-            <p style="color: lightgrey; " class="bmi-text">You can check if you're underweight by using our BMI healthy weight calculator, which shows your body mass index (BMI).</p> 
-            <p style="color: lightgrey; " class="bmi-text"> If your BMI is below 18.5, this suggests that your weight may be too low.</p>
-            <p style="color: lightgrey; " class="bmi-text"> If you're underweight, or you're concerned that someone you know is, tell a GP or practice nurse.
-                They can give you help and advice.</p>
-            <a class="d-flex justify-content-end bmi-link" style="color:#F57D20;" href="#">Read more +</a>
-        </div>
-        <div class="col pb-5">
-          <h2 style="color: #ffffff;">Overweight</h2>
-            <p style="color: lightgrey; " class="bmi-text">Underweight Being underweight could be a sign you're not eating enough or you may be ill. If you're underweight, a GP can help. Weighing too little can contribute to a weakened immune system, fragile bones and feeling tired.
-            <p style="color: lightgrey; " class="bmi-text">You can check if you're underweight by using our BMI healthy weight calculator, which shows your body mass index (BMI).</p> 
-            <p style="color: lightgrey; " class="bmi-text"> If your BMI is below 18.5, this suggests that your weight may be too low.</p>
-            <p style="color: lightgrey; " class="bmi-text"> If you're underweight, or you're concerned that someone you know is, tell a GP or practice nurse.
-                They can give you help and advice.</p>
-            <a class="d-flex justify-content-end bmi-link" style="color: #F57D20;" href="#">Read more +</a>
-        </div>
-      </div>
-    </div>
-  </section>
+                </div>
+                <div class="col-md-3 featured-img">
+                    <img src="assets/img/Rectangle 33.svg" alt="featured-image" class="img-fluid ">
 
-  <!-- second image -->
+                </div>
+                <div class="col-md-6 featured-img">
+                    <img src="assets/img/Rectangle 26.svg" alt="featured-image" class="img-fluid ">
 
-  <section class="page-section end-banner" style="height: 500px;">
-    <!-- <div class="container"> -->
-    <div class="row text-center banner-footer">
-      <div class="footer-overlay"></div>
-      <div class="col text-white">
-        <h3 class=" end-banner-text">REGISTER NOW TO GET DEALS</h3>
-        <p>WHERE HEALTH MEETS FITNESS</p>
-        <button class="btn" style="background:#FF4301; color: #ffffff;">Register</button>
-      </div>
-    </div>
-    <!-- </div> -->
-  </section>
-  <!-- begin footer -->
+                </div>
+            </div>
+
+           
+
+            <span class="d-flex justify-content-end text-uppercase">more gallery</span>
+    
+    </section>
+
+    <section class="newsletter d-flex flex-column justify-content-center align-items-center">
+        <div class="newsletter-wrapper text-center">
+            <h2 class="text-uppercase lead-text text-white">subscribe to our newsletters</h2>
+            <h3 class="text-uppercase sub-text text-white">we would love to help you grow</h3>
+            <form class="form-inline d-flex justify-content-center">
+                <label class="sr-only" for="inlineFormInputName2">Name</label>
+                <input type="text" class="form-control mr-sm-0" id="inlineFormInputName2" placeholder="Enter your email">
+                <button type="submit" class="btn newsletter-btn text-white p-3">Subscribe</button>
+            </form>
+        </div> 
+    </section>
+   
+    <section class="partners">
+        <div class="text-center">
+            <h2 class="text-uppercase lead-text text-white">we don't walk alone</h2>
+            <h3 class="text-uppercase sub-text">our partners</h3>
+            <div class="row mx-auto">
+                <div class="col-md-4 partner">
+                    <img src="assets/img/partner-Logo.svg" alt="partner-image" class="img-fluid">
+                </div>
+                <div class="col-md-4 partner">
+                    <img src="assets/img/partner-Logo.svg" alt="partner-image" class="img-fluid">
+                </div>
+                <div class="col-md-4 partner">
+                    <img src="assets/img/partner-Logo.svg" alt="partner-image" class="img-fluid">
+                </div>
+                
+            </div>
+        </div> 
+    </section>
 
 
-<!-- begin footer -->
+ <!-- begin footer -->
 
-<footer class="footer">
+ <footer class="footer">
     <div class="container-fluid custom-wrapper">
-        <div class="row top justify-content-between">
-            <div class="col-md-3">
-                <div class="py-3 d-md-block">
+        <div class="row mt-5 mx-1 justify-content-between">
+            <div class="col-md-4 col-lg-3 pl-md-0 pr-sm-0">
+                <div class="pt-0 mb-4 d-none d-md-block">
                     <img src="../../assets/img/logo.png" alt="Fitfam logo icon">
                 </div>
-                <p class="py-2">
+                <div class="py-3 d-block d-sm-block d-md-none text-center">
+                    <img src="../../assets/img/mobile/Logo-01.svg" alt="Fitfam logo icon">
+                </div>
+                <p class="py-2 d-none d-md-block footer-p font-weight-bold">
                     Orci vel in vel, amet pellentesque. Nec in auctor diam duis sit. Imperdiet in egestas eu consectetur eros, turpis. Sapien vitae mauris eu ultrices suspendisse risus, malesuada nibh. Venenatis orci neque quam quisque gravida ultrices. Vestibulum sit pellentesque
                     ultricies risus commodo neque, ac. Quis et dui arcu urna sagittis ipsum volutpat diam. Amet. </p>
             </div>
-            <div class="col-6 col-md-2">
-                <h5 class="py-3">Explore</h5>
-                <ul class="pl-0">
-                    <li><a href="">Home</a></li>
-                    <li class="py-1"><a href="">services</a></li>
-                    <li class="py-1"><a href="">plans</a></li>
-                    <li class="py-1"><a href="">bm calculator</a></li>
-                    <li class="py-1"><a href="">products</a></li>
-                    <li class="py-1"><a href="">meet the team</a></li>
-                    <li class="py-1"><a href="">about us</a></li>
-                    <li class="py-1"><a href="">contact us</a></li>
+            <div class="col-12 text-center text-lg-left col-md-2 col-lg-2 pt-3 py-md-0 my-border d-md-none d-lg-block">
+                <h5 class="pt-3 pb-1 mb-0 d-none d-md-block">Explore</h5>
+                <ul class="pl-0 py-3">
+                    <li class="py-1 d-block d-sm-block d-md-none font-weight-bold"><a href="">Home</a></li>
+                    <li class="py-1 d-block d-sm-block d-md-none font-weight-bold"><a href="">services</a></li>
+                    <li class="py-1 d-block d-sm-block d-md-none font-weight-bold"><a href="">pages</a></li>
+                    <li class="py-1 d-block d-sm-block d-md-none font-weight-bold"><a href="">our team</a></li>
+                    <li class="py-1 d-block d-sm-block d-md-none font-weight-bold"><a href="">about us</a></li>
+                    <li class="py-1 d-block d-sm-block d-md-none font-weight-bold"><a href="">contact</a></li>
+                    <li class="py-1 d-none d-md-block font-weight-bold"><a href="">Home</a></li>
+                    <li class="py-1 d-none d-md-block font-weight-bold"><a href="">services</a></li>
+                    <li class="py-1 d-none d-md-block font-weight-bold"><a href="">plans</a></li>
+                    <li class="py-1 d-none d-md-block font-weight-bold"><a href="">bm calculator</a></li>
+                    <li class="py-1 d-none d-md-block font-weight-bold"><a href="">products</a></li>
+                    <li class="py-1 d-none d-md-block font-weight-bold"><a href="">meet the team</a></li>
+                    <li class="py-1 d-none d-md-block font-weight-bold"><a href="">about us</a></li>
+                    <li class="py-1 d-none d-md-block font-weight-bold"><a href="">contact us</a></li>
                 </ul>
             </div>
-            <div class="col-6 col-md-3">
-                <div class=" d-md-flex">
+            <div class="col col-md-4 col-lg-3 p-lg-0 px-3">
+                <div class=" d-none d-md-block d-md-flex font-weight-bold">
                     <div>
-                        <h5 class="py-3">visit</h5>
+                        <h5 class="pt-3 pb-1">visit</h5>
                         <ul class="pr-5 pl-0">
                             <City,>100, Street adress City, 00188 State</p>
                         </ul>
                     </div>
                     <div>
-                        <h5 class="py-3">legal</h5>
-                        <ul class="pl-0">
+                        <h5 class="pt-3 pb-1">legal</h5>
+                        <ul class="pl-0 font-weight-bold">
                             <li><a href="">PRIVACY POLICY</a></li>
                             <li class="py-1"><a href="">TERMS</a></li>
                         </ul>
                     </div>
                 </div>
-                <div class="d-none d-md-block">
-                    <h5 class="py-3">follow us on social media</h5>
+                <div class="d-none d-md-block font-weight-bold">
+                    <h5 class="py-1">follow us on social media</h5>
                     <div class="d-flex justify-content-between">
 
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -289,8 +293,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 d-md-none">
-                <h5 class="py-3">follow us on social media</h5>
+            <div class="col-12 d-md-none ">
+                <h5 class="py-3 d-none d-md-block font-weight-bold">follow us on social media</h5>
                 <div class="d-flex justify-content-between">
 
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -315,9 +319,9 @@
 
                 </div>
             </div>
-            <div class="col-md-4">
-                <h5 class="py-3 text-right">subscribe to our newsletter</h5>
-                <form class="ml-5">
+            <div class="col-md-4 col-lg-4">
+                <h5 class="pt-3 pb-1 text-right d-none d-md-block">subscribe to our newsletter</h5>
+                <form class="ml-5 d-none d-md-block">
                     <div class="form-group">
                         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your e-mail here">
                     </div>
@@ -326,17 +330,24 @@
                     </div>
                 </form>
 
-                <span class="float-right mt-5">&copy; 2020 FitFam Gym. All rights reserved</span>
+                <ul class="d-flex justify-content-between py-4 px-2 subnav mb-0">
+                    <li class="py-1 d-block d-sm-block d-md-none font-weight-bold"><a href="">site map</a></li>
+                    <li class="py-1 d-block d-sm-block d-md-none font-weight-bold"><a href="">privacy policy</a></li>
+                    <li class="py-1 d-block d-sm-block d-md-none font-weight-bold"><a href="">careers</a></li>
+                   
+                </ul>
+
+                <span class="float-md-left mt-3 mt-xl-5 text-center">&copy; 2020 FitFam Gym. All rights reserved</span>
             </div>
         </div>
     </div>
     </div>
 </footer>
 
-<!-- end of footer -->
-<script src="../../assets/js/vendor-js/popper.js"></script>
-<script src="../../assets/js/vendor-js/jquery.js"></script>
-<script src="../../assets/js/vendor-js/bootstrap.min.js"></script>
+    <!-- end of footer -->
+    <script src="../../assets/js/vendor-js/popper.js"></script>
+    <script src="../../assets/js/vendor-js/jquery.js"></script>
+    <script src="../../assets/js/vendor-js/bootstrap.min.js"></script>
 
 </body>
 
